@@ -1,4 +1,9 @@
 from pyngrok import ngrok
+import os
+from os import system as sys
+
+###########################################
+sys("pip install pyngrok")
 
 #########################################################
 # Ngrok Token Api
